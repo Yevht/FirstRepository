@@ -1,0 +1,36 @@
+.options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.options article {
+    border-top: solid 7px #18cfab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+}
+
+.options article:nth-last-child(-n+4) {
+    background-color: #1c2a33;
+    color: #18cfab;
+    font-family: 'ExtraBold';
+    font-size: 20px;
+}
+
+.options article:nth-child(even) {
+    background-color: #18cfab;
+    color: white;
+    font-family: 'ExtraBold';
+    font-size: 20px;
+}
+
+.options div {
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
